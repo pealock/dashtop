@@ -69,7 +69,7 @@ echo
 sleep 1
 
 read -rp "Target website:" destination
-echo -e "DESTINATION=$destination' > ~/dashtop/.env
+echo -e "DESTINATION=$destination'" > ~/dashtop/.env
 echo
 echo
 
