@@ -48,7 +48,7 @@ if test -d "$PYTHON"; then
 else
   echo "Setting up Python environment"
   python -m venv ~/.py
-  ~/.py/bin/pip install ~/dashtop/requirements.txt
+  ~/.py/bin/pip install selenium python-dotenv
   echo
   echo
   echo
