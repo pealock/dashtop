@@ -9,4 +9,6 @@ options.add_experimental_option("excludeSwitches", ['enable-automation'])
 options.add_experimental_option("prefs", prefs)
 options.add_argument("--kiosk")
 options.add_argument("--start-maximized")
+options.add_argument('--force-dark-mode')
+
 
