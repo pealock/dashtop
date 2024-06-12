@@ -8,4 +8,4 @@ echo
 
 sleep 3
 
-DISPLAY=:0 ~/.py/bin/python ~/dashtop/scripts/dashboardLoader.py
+DISPLAY=:0 ~/.py/bin/python ~/dashtop/scripts/dashtopLoad.py
