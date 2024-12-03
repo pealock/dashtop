@@ -13,6 +13,8 @@ if 'linux' in sys.platform:
 else:
     service = Service()
 
+create_history_file = open('history.txt', 'w+').close()
+
 if os.stat('history.txt').st_size == 0:
     destination = input('Where would you like to go?: \n')
     file = open('history.txt', 'w')
